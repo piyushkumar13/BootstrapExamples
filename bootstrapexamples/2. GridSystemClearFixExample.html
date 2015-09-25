@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js">
+    </script>
+
+    <style type="text/css">
+        .main {
+            background-color: #00b3ee;
+            padding-top: 20px;
+
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <div class="jumbotron">
+        <div class="container">
+            <h1> Tutorials For Bootstrap</h1>
+
+            <h3>#2. Grid System - clearfix in Bootstrap.</h3>
+        </div>
+
+    </div>
+</header>
+
+<div class="main">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-6 col-md-3">
+                <div class="well"><b></b>
+                    <b>ClearFix</b> fixes the columns among the cells. Wherever you are feeling the
+                    space is odd between the cell apply clearfix.
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <div class="well">But, After applying the clearfix, the responsive nature of the screan goes i.e you
+                    will see two rows with two columns each, even if the full screen is opened. To fix this, we uses some
+                    more classes along with clearfix i.e 'hidden-md' 'hidden-lg'.
+                </div>
+            </div>
+            <div class="clearfix hidden-md hidden-lg"></div>
+            <div class="col-sm-6 col-md-3">
+                <div class="well">If you see in this html page, in div I have provided two classes like col-sm-6
+                    col-md-3.
+                    What it means that when the breakpoint happens at the medium level, the cells wont be goint to
+                    convert into the four rows(which is usually the case, if I dont use the col-sm-6) instead, these
+                    will break into the two rows - each row with two columns having size of 6 columns.
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="well"> Fourth Column
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <p><a href="">Piyush's Git Account</a></p>
+
+        <p><a href="">Piyush's LinkedIn</a></p>
+
+        <p><a href="">Piyush's Facebook Account</a></p>
+    </div>
+</footer>
+
+</body>
+</html>

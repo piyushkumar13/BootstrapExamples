@@ -1,0 +1,17 @@
+{
+  "name": "bootstrapexample",
+  "version": "1.0.0",
+  "description": "This contains some basics example of bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Piyush Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.5"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.5"
+  }
+}
